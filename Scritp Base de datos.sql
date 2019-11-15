@@ -1,0 +1,16 @@
+CREATE TABLE `estudiante` (
+  `ID` varchar(15) NOT NULL,
+  `primer_nombre` varchar(45) NOT NULL,
+  `segundo_nombre` varchar(45) DEFAULT NULL,
+  `primer_apellido` varchar(45) NOT NULL,
+  `segundo_apellido` varchar(45) DEFAULT NULL,
+  `sexo` int(1) NOT NULL,
+  `email` varchar(45) NOT NULL,
+  `telefono` varchar(10) NOT NULL,
+  `semestre_cod_semestre` varchar(10) NOT NULL,
+  `sede_cod_sede` varchar(10) NOT NULL,
+  `programa_cod_programa` varchar(10) NOT NULL,
+  `cod_grupo_semestre` varchar(10) NOT NULL,
+  `jornada_cod_jornada` varchar(10) NOT NULL,
+  `periodo_cod_periodo` varchar(10) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
